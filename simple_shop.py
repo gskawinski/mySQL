@@ -1,3 +1,24 @@
+"""
+The command-line script "Simple Shop" is a user-friendly interface that allows users to interact with an online merchandise store. 
+It provides various options to perform different tasks within the store. Here's a brief description of each option:
+- Create User: This option allows you to create a new customer account in the online merchandise store. 
+User data is randomly generated, such as first name, last name, email, phone, address, username, and password.
+- Get Product List: Selecting this option retrieves a list of all available products in the store, product list by Category
+Users can see product names, prices, and other relevant information.
+- Get Product Details: Users can choose this option to view detailed information about a specific product. After selecting this option, you will be prompted to enter the product's ID or name, and the script will display its description, price, category, stock quantity, manufacturer, release date, and image URL.
+- Get Product Reviews: This option allows users to read product reviews.
+By providing the product's ID, the script will display reviews, including ratings, comments, and review dates, submitted by other customers.
+- Create Order: Users can add products to their shopping cart and create an order. 
+This involves specifying the product ID and the desired quantity. The order is initially set to "pending," and the total amount is calculated based on the product prices and quantities.
+- Make Payment and Change Order Status: After creating an order, users can choose this option to make a payment and change the order status. 
+Payment details can be provided, and the order's status will be updated to "paid" upon successful payment.
+- Get Customer Orders: This option enables registered customers to view their order history. 
+By providing their customer ID, the script retrieves a list of all orders associated with that customer.
+- Add Product to Shop: This feature allows to add new products to the merchandise shop. 
+The user provides product details such as the product name, description, price, category, stock quantity, manufacturer, release date, and image URL. 
+After adding the product, it becomes available for customers to browse and purchase.
+- Exit: This option allows users to exit the Simple Shop interface and return to their command-line environment.
+"""
 
 import mysql.connector
 from datetime import datetime
